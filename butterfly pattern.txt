@@ -1,0 +1,44 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+       Scanner in = new Scanner(System.in);
+       int x,num=0;
+      System.out.println("Enter no of rows : ");
+      x = in.nextInt();
+//System.out.println("enter no of columns : ");
+     // y = in.nextInt();
+      in.close();
+
+     for(int i=1;i<=(2*x);i++)
+     {
+     for(int j=1;j<=(2*x);j++)
+     {
+      if(i<=4)
+      {
+     if(j<=i || j>((2*x)-i))
+     {
+      System.out.print("*");
+     }
+     else{
+        System.out.print(" ");
+     }
+    }
+    else{
+      if(j<=((2*x)-i)+1 || j>=i)
+      {
+        System.out.print("*");
+      }
+      else{
+        System.out.print(" ");
+      }
+    }
+     
+     }
+      
+        System.out.println();
+    }
+     }
+          }
+
+
+
