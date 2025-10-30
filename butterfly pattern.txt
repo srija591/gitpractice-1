@@ -5,6 +5,8 @@ public class Main {
        int x,num=0;
       System.out.println("Enter no of rows : ");
       x = in.nextInt();
+//System.out.println("enter no of columns : ");
+     // y = in.nextInt();
       in.close();
 
      for(int i=1;i<=(2*x);i++)
@@ -37,7 +39,6 @@ public class Main {
     }
      }
           }
-
 
 
 
